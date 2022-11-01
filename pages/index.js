@@ -12,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/cottonhueIcon.svg" />
         
       </Head>
+      
       <Hero />
       <Footer />
     </div>

@@ -15,7 +15,7 @@ function Hero() {
             <source src="/videobg1.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0">
-            <Navbar />
+             <Navbar /> 
             <div className="sm:text-5xl text-4xl font-BOLD tracking-wider sm:my-56 my-32 mx-16 text-center text-white/90 shadow-lg shadow-slate-50">
               <p className="flex align-middle justify-center tracking-widest">FOR THE Best Cotton Apparels <br/> for the fashion <br /> CONNOISEURS </p>
             </div>
