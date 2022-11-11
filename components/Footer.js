@@ -18,18 +18,21 @@ function Footer() {
               width={50}
               height={50}
               className="hover:bg-slate-200 rounded-full"
+              alt="fashion1"
             />
             <Image
               src={fashion1}
               width={50}
               height={50}
               className="hover:bg-slate-200 rounded-full"
+              alt="fashion2"
             />
             <Image
               src={fashion3}
               width={50}
               height={50}
               className="hover:bg-slate-200 rounded-full"
+              alt="fashion3"
             />
           </div>
         </div>
