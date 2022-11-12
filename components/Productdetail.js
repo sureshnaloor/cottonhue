@@ -103,11 +103,11 @@ function Productdetail() {
         {/* Preview Images Div For larger Screen */}
 
         <div className="w-full sm:w-96 md:w-8/12 lg:w-6/12 flex lg:flex-row flex-col lg:gap-8 sm:gap-6 gap-4">
-          <div className="w-full lg:w-8/12 bg-gray-100 flex justify-center items-center">
+          <div className="w-full lg:w-8/12 bg-gray-100 flex justify-center items-center relative">
             <Image
               src="https://i.ibb.co/bRg2CJj/sam-moqadam-kvmds-Tr-GOBM-unsplash-removebg-preview-1.png"
               alt="Wooden Chair Previw"
-              width={220} height={350}
+              layout="fill"
             />
           </div>
           <div className="w-full lg:w-4/12 grid lg:grid-cols-1 sm:grid-cols-4 grid-cols-2 gap-6">
@@ -115,21 +115,21 @@ function Productdetail() {
               <Image
                 src="https://i.ibb.co/0jX1zmR/sam-moqadam-kvmds-Tr-GOBM-unsplash-removebg-preview-1-1.png"
                 alt="Wooden chair - preview 1"
-                width={150} height={150}
+                width={100} height={100}
               />
             </div>
             <div className="bg-gray-100 flex justify-center items-center py-4">
               <Image
                 src="https://i.ibb.co/7zv1N5Q/sam-moqadam-kvmds-Tr-GOBM-unsplash-removebg-preview-2.png"
                 alt="Wooden chair - preview 2"
-                width={150} height={150}
+                width={100} height={100}
               />
             </div>
-            <div className="bg-gray-100 flex justify-center items-center py-4">
+            <div className="bg-gray-100 flex justify-center items-center py-4" >
               <Image
                 src="https://i.ibb.co/0jX1zmR/sam-moqadam-kvmds-Tr-GOBM-unsplash-removebg-preview-1-1.png"
                 alt="Wooden chair- preview 3"
-                width={150} height={150}
+                width={100} height={100}
               />
             </div>
           </div>
